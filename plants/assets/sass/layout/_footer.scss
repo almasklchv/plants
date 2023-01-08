@@ -1,0 +1,82 @@
+footer {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    span {
+        margin-right: 20px;
+        font-family: 'Inter';
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 50px;
+        color: #000000;
+    }
+
+    .left {
+        position: absolute;
+        left: 109px;
+    }
+
+    .center {
+        margin: 0 auto;
+        max-width: 229px;
+    }
+}
+
+.footer__social-media-group {
+    float: right;
+    margin-top: -39px;
+    margin-right: 61px;
+}
+
+
+.footer__social-media-item  {
+    margin-right: 30px;
+}
+
+.instagram_ico {
+    float: left;
+    content: '';
+    width: 29.26px;
+    height: 29.26px;
+    background: url('../icons/footer/static/instagram_ico.svg');
+}
+
+.instagram_ico:hover {
+    background: url('../icons/footer/hover/instagram_ico.png');
+}
+
+.facebook_ico {
+    float: left;
+    content: '';
+    width: 16.67px;
+    height: 26.67px;
+    background: url('../icons/footer/static/facebook_ico.svg');
+}
+
+.facebook_ico:hover {
+    background: url('../icons/footer/hover/facebook_ico.png');
+}
+
+.twitter_ico {
+    float: left;
+    content: '';
+    width: 26.67px;
+    height: 21.67px;
+    margin-top: 2px;
+    background: url('../icons/footer/static/twitter_ico.svg');
+}
+
+.twitter_ico:hover {
+    background: url('../icons/footer/hover/twitter_ico.png');
+}
+
+.pinterest_ico {
+    float: left;
+    content: '';
+    width: 27.57px;
+    height: 27.57px;
+    background: url('../icons/footer/static/pinterest_ico.svg');
+}
+
+.pinterest_ico:hover {
+    background: url('../icons/footer/hover/pinterest_ico.png');
+}

@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Inika';
+    src: local('Inika-Regular'), local('Inika Regular'),
+        url('./Inika/Inika-Regular.ttf');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Inika';
+    src: local('Inika-Bold'), local('Inika Bold'),
+        url('./Inika/Inika-Bold.ttf');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: local('Inter-Regular'), local('Inter Regular'),
+        url('./Inter/Inter-Regular.ttf');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: local('Inter-Bold'), local('Inter Bold'),
+        url('./Inter/Inter-Bold.ttf');
+    font-weight: 700;
+}

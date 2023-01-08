@@ -1,0 +1,20 @@
+// fonts
+@import '../fonts/fonts.css';
+
+// abstracts
+@import './abstracts/variables';
+
+// base
+@import './base/normalize';
+@import './base/base';
+
+// layout
+@import './layout/header';
+@import './layout/footer';
+
+// components
+@import './components/welcome';
+@import './components/about';
+@import './components/service';
+@import './components/prices';
+@import './components/contacts';
