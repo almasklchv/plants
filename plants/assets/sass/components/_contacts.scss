@@ -1,0 +1,44 @@
+.contacts {
+    padding-top: 60px;
+    padding-bottom: 356px;
+    h2 {
+        text-align: center;
+    }
+}
+
+.contacts__dropdown {
+    margin-left: auto;
+    margin-right: 92px;
+    background: #D6E7D2;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0px;
+    width: 450px;
+    height: 50px;
+
+    p {
+        padding-top: 9px;
+        padding-left: 20px;
+        letter-spacing: 0.05em;
+    }
+}
+
+.contacts__main-content::before {
+    content: '';
+    float: left;
+    position: relative;
+    bottom: 91px;
+    left: 109px;
+    width: 400px;
+    height: 496.99px;
+    background: url('../images/contacts/contact_woman.png');
+}
+
+.dropdown__btn {
+    cursor: pointer;
+    float: right;
+    width: 16px;
+    height: 16px;
+    margin-top: -46px;
+    margin-right: 37px;
+    background: url('../icons/contacts/accordion_btn.svg');
+}

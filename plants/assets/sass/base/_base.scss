@@ -1,0 +1,99 @@
+html {
+    font-size: 10px;
+}
+
+h1 {
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 4.5rem;
+    line-height: 50px;
+    color: #717171;
+}
+
+h2 {
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 4rem;
+    line-height: 48px;
+    color: #000000;
+}
+
+.contacts_color {
+    color: #499A18;
+    font-family: 'Inika';
+    margin-top: 0px;
+}
+
+h3 {
+    font-family: 'Inika';
+    font-weight: 400;
+    font-size: 4rem;
+    line-height: 52px;
+    color: #499A18;
+}
+
+h4 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 20px;
+    color: #E06733;
+    text-align: center;
+}
+
+p {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 35px;
+    color: #636060;
+}
+
+a {
+    font-family: 'Inika';
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 50px;
+    color: #010201;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #E06733;
+}
+
+.navigation__list {
+    float: right;
+    list-style: none;
+    li {
+        display: inline-block;
+        margin-right: 46px;
+    }
+    
+}
+
+
+header, .welcome, .service, .contacts {
+    background: #EDF2EC;
+}
+
+.selected {
+    pointer-events: none;
+    color: #E06733;
+}
+
+.btn {
+    cursor: pointer;
+    width: 161px;
+    height: 50px;
+    border: 1px solid #E06733;
+    border-radius: 5px;
+    color: #E06733;
+    background: transparent;
+}
+
+.btn:hover {
+    background: #E06733;
+    color: #fff;
+}

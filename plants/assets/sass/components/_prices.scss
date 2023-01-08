@@ -1,0 +1,81 @@
+.prices {
+    padding-left: 109px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 130px;
+    
+    .left {
+        h2 {
+            margin-bottom: 64px;
+        }
+    }
+
+    .right {
+        max-width: 452px;
+        margin-right: 93px;
+        margin-top: 6px;
+        text-align: right;
+    }
+
+    .right::after {
+        float: right;
+        position: absolute;
+        margin-top: 90px;
+        right: 97px;
+        content: '';
+        width: 152px;
+        height: 174.99px;
+        background: url('../images/prices/leafs.png');
+    }
+}
+
+
+
+.prices__items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 332px;
+    height: 282.01px;
+    border: 1px solid #E3E1D5;
+    border-radius: 20px;
+    background: #fff;
+}
+
+.prices__item {
+    background: #EDF2EC;
+    border-radius: 20px;
+    width: 250px;
+    height: 50px;
+    margin-bottom: 32px;
+
+    p {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 20px;
+        color: #000000;
+        padding-left: 40px;
+        margin-top: 16px;
+    }
+}
+
+.prices__item:last-child {
+    margin-bottom: 0;
+}
+
+.prices__btn {
+    cursor: pointer;
+    float: right;
+    width: 16px;
+    height: 16px;
+    margin-right: 41px;
+    margin-top: -40px;
+    background: url('../icons/prices/accordion_btn.svg');
+}
+
+.btn_prices {
+    font-weight: 700;
+    font-size: 2rem;
+    margin-top: 9px;
+}
