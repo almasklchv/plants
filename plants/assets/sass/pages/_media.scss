@@ -1,0 +1,419 @@
+@media (max-width: 1262px) { // tablet 768px
+    h1 {
+        font-size: 3.5rem;
+        margin-bottom: 0;
+    }
+    
+    h3 {
+        font-size: 35px;
+        line-height: 45.61px;
+    }
+    
+    header {
+        overflow: hidden;
+    }
+
+    .logo {
+        padding-top: 49px;
+        margin-left: 71px;
+    }
+
+    .navigation {
+      margin-right: -17px;
+    }
+
+    .welcome {
+        padding-top: 27px;
+        padding-bottom: 68px;
+    }
+
+    .welcome::before {
+        content: none;
+    }
+
+    
+    .welcome::after {
+        content: '';
+        float: right;
+        position: relative;
+        bottom: 321px;
+        right: 50px;
+        width: 280px;
+        height: 254.15px;
+        background: url('../images/welcome/tablet/leafs.png');
+    }
+    
+    .welcome__main-content {
+        max-width: 341px;
+        margin-left: 50px;
+
+        
+        
+        p {
+            font-size: 1.6rem;
+            line-height: 25px;
+            margin-bottom: 8px;
+        }
+    }
+
+    .about {
+        padding: 0;
+        padding-bottom: 102px;
+        h3 {
+            position: relative;
+            margin-top: 85px;
+            margin-bottom: 7px;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            max-width: 423px;
+            text-align: center;
+        }
+
+        p {
+            line-height: 30px;
+            margin-left: 7%;
+        }
+    }
+
+    .about::after {
+        position: static;
+        display: block;
+        float: none;
+        margin: 0 auto;
+        margin-top: 38px;
+        width: 250px;
+        height: 250px;
+        background: url('../images/about/tablet/houseplant.png');
+    }
+
+    .service {
+        padding: 0;
+        padding-top: 3px;
+        padding-left: 14%;
+        padding-bottom: 28px;
+    }
+
+    .service__choose {
+        flex-direction: column;
+        margin-left: -9%;
+        margin-top: 57px;
+        
+        h3 {
+            max-width: 37%;
+            margin: 0;
+        }
+    }
+
+    .service__btns {
+        padding-top: 40px;
+    }
+
+    .service__cards {
+        padding-top: 40px;
+    }
+
+    .service__card {
+        border-top: 1px solid #E3E1D5;
+        width: 281px;
+        height: 450px;
+        margin-bottom: 38px;
+
+
+        img {
+            width: 280px;
+            height: 350px;
+            object-fit: cover;
+        }
+
+        h4 {
+            margin-top: 10px;
+        }
+
+        p {
+            max-width: 201px;
+            margin: 0 auto;
+            margin-top: -13px;
+        }
+    }
+
+    .prices {
+        padding: 0;
+        padding-bottom: 168px;
+
+        .left {
+            margin-left: 50px;
+            h2 {
+                font-size: 35px;
+                line-height: 42px;
+                margin-bottom: 50px;
+                margin-top: 42px;
+                margin-left: 14px;
+            }
+        }
+
+        .right {
+            margin-right: 35px;
+            margin-top: 122px;
+
+            h2 {
+                font-size: 25px;
+                line-height: 35px;
+            }
+        }
+
+        .right::after {
+            right: 38px;
+        }
+    }
+
+    .contacts {
+        position: relative;
+        padding-top: 44px;
+        padding-bottom: 498px;
+
+        h2 {
+            margin-bottom: 100px;
+        }
+    }
+
+    .contacts::after {
+        content: '';
+        position: absolute;
+        left: 50%;
+        bottom: 0;
+        transform: translateX(-50%);
+        width: 200px;
+        height: 248.49px;
+        background: url('../images/contacts/tablet/contact_woman.png');
+    }
+
+    .contacts__main-content::before {
+        content: none;
+    }
+
+    .contacts__dropdown {
+        margin: 0 auto;
+        
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        padding-top: 0;
+
+        .left {
+            position: static;
+            margin: 0 auto;
+            margin-bottom: -51px;
+        }
+
+        .right {
+            margin: 0 auto;
+        }
+
+        .footer__social-media-group {
+            margin: 0;
+            margin-top: -6px;
+        }
+    }
+}
+
+@media (max-width: 668px) { // mobile 380px
+    h1 {
+        font-size: 25px;
+        line-height: 35px;
+        margin-bottom: -11px;
+    }
+
+    h3 {
+        font-size: 25px;
+        line-height: 32.57px;
+    }
+
+    .btn {
+        width: 121px;
+        height: 35px;
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .btn_welcome {
+        width: 100px;
+        height: 34.14px;
+        font-size: 10px;
+        line-height: 20px;
+    }
+    
+    .logo {
+        padding-top: 39px;
+        margin-left: 45px;
+    }
+    
+    .navigation {
+        display: none;
+    }
+
+    .burger-icon {
+        display: block;
+    }
+
+    .welcome {
+        padding-top: 6px;
+        padding-bottom: 25px;
+    }
+    
+    .welcome__main-content {
+        margin: 0 auto;
+
+        p {
+            margin-bottom: 0;
+        }
+    }
+    
+    .welcome::after {
+        content: none;
+    }
+
+    .about {
+        padding-bottom: 32px;
+
+        p {
+            font-size: 15px;
+            line-height: 25px;
+            margin-left: 6%;
+        }
+
+        h3 {
+            margin-top: 62px;
+            margin-bottom: -18px;
+        }
+    }
+
+    .about::after {
+        width: 150px;
+        height: 147px;
+        margin-top: 29px;
+        background: url('../images/about/mobile/houseplant.png');
+    }
+
+    .service {
+        padding-bottom: 0;
+    }
+
+    .service__choose {
+        h3 {
+            max-width: 53%;
+            margin-top: -32px;
+        }
+    }
+
+    .btn_service {
+        margin-bottom: 9px;
+        margin-right: 10px;
+    }
+
+    .service__cards {
+        justify-content: normal;
+        padding: 0;
+        padding-top: 30px;
+        margin: 0 auto;
+        position: static;
+    }
+
+    .service__card {
+        height: 447px;
+        margin-bottom: 34px;
+    }
+
+    .prices {
+        flex-direction: column;
+        padding-top: 24px;
+        padding-bottom: 41px;
+
+        .left {
+            margin: 0 auto;
+
+            h2 {
+                font-size: 25px;
+                line-height: 30.26px;
+                margin: 0;
+                margin-bottom: 40px;
+                text-align: center;
+            }
+        }
+
+        .right {
+            margin: 0 auto;
+            margin-top: -2px;
+            max-width: 230px;
+            h2 {
+                font-size: 20px;
+                text-align: center;
+            }
+        }
+
+        .right::after {
+            content: none;
+        }
+    }
+
+    .prices__items {
+        width: 224px;
+        height: 235px;
+    }
+
+    .prices__item {
+        width: 180px;
+        height: 49.72px;
+        margin-bottom: 13.92px;
+
+        p {
+            font-size: 15px;
+            line-height: 20px;
+        }
+    }
+
+    .prices__btn {
+        margin-top: -33px;
+    }
+
+    .btn_prices {
+        margin-right: 51px;
+        margin-top: 3px;
+    }
+
+    .contacts {
+        padding-bottom: 258px;
+
+        h2 {
+            font-size: 2.5rem;
+            margin-top: -28px;
+            margin-bottom: 73px;
+        }
+    }
+
+    .contacts::after {
+        width: 100px;
+        height: 124.25px;
+        background: url('../images/contacts/mobile/contact_woman.png');
+    }
+
+    .contacts__dropdown {
+        width: 300px;
+    }
+
+    .dropdown__btn {
+        margin-right: 18px;
+    }
+
+    footer {
+        margin: 0 auto;
+        margin-top: -12px;
+    }
+}
+
+@media (max-width: 713px) {
+    .welcome::after {
+        right: 7px;
+    }
+}
